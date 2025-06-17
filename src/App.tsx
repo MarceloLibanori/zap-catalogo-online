@@ -17,6 +17,7 @@ const App = () => (
       <BrowserRouter basename="/zap-catalogo-online">
         <Routes>
           <Route path="/" element={<Index />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
